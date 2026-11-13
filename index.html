@@ -70,9 +70,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero{padding-block:clamp(44px,7vw,92px) clamp(56px,8vw,96px);position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;inset:-30% -10% auto auto;width:720px;height:720px;background:radial-gradient(closest-side,rgba(124,140,255,.2),transparent);pointer-events:none}
 .hero::after{content:"";position:absolute;inset:auto auto -40% -15%;width:620px;height:620px;background:radial-gradient(closest-side,rgba(198,244,50,.1),transparent);pointer-events:none}
-.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center;position:relative;z-index:1}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr);gap:64px;align-items:center;position:relative;z-index:1}
 .hero-copy{display:grid;gap:22px;min-width:0}
-.hero h1{font-size:clamp(34px,5.4vw,62px);font-weight:800}
+.hero h1{font-size:clamp(34px,3.9vw,52px);font-weight:800;line-height:1.1;max-width:20ch}
 .hero h1 em{font-style:normal;color:var(--accent)}
 .lead{font-size:clamp(16px,1.6vw,19px);color:var(--muted);max-width:60ch}
 .lead strong{color:var(--fg);font-weight:600}
@@ -80,7 +80,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .trust{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:14px;color:var(--muted)}
 .trust span{display:inline-flex;align-items:center;gap:8px}
 .trust i{font-style:normal;color:var(--accent)}
-.photo-card{position:relative;justify-self:center;width:min(100%,380px);display:grid;gap:14px}
+.photo-card{position:relative;justify-self:end;width:min(100%,330px);display:grid;gap:14px;margin-right:24px}
 .photo{position:relative;border-radius:28px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/5;background:var(--surface);box-shadow:0 40px 80px -30px rgba(0,0,0,.7)}
 .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%;display:block}
 .photo::after{content:"";position:absolute;inset:0;border-radius:28px;box-shadow:inset 0 0 0 1.5px rgba(198,244,50,.45);pointer-events:none}
@@ -89,10 +89,10 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .float b{font:700 19px/1.1 Sora,sans-serif}
 .float small{font-size:12px;color:var(--muted)}
 .float .k{font:500 11px/1 "JetBrains Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
-.f1{left:-34px;bottom:22%}.f2{right:-30px;top:10%}
+.f1{left:-56px;bottom:12%}.f2{right:-28px;top:8%}
 @media(max-width:960px){
  .hero .wrap{grid-template-columns:1fr;gap:36px}
- .photo-card{width:min(100%,320px);order:-1}
+ .photo-card{width:min(100%,320px);order:-1;justify-self:center;margin-right:0}
  .photo{aspect-ratio:1/1;border-radius:24px}
  .photo img{object-position:50% 18%}
  .badges{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -111,13 +111,19 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 /* logos */
 .logos{padding-block:44px}
 .logos .label{font:500 12px/1 "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);text-align:center;margin-bottom:22px}
-.logo-row{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
-.client{display:grid;justify-items:center;gap:10px;width:200px}
-.client .tile{width:100%;height:96px;border-radius:16px;background:#F4F7FF;display:grid;place-items:center;padding:14px 20px}
-.client .tile img{max-height:64px;width:auto;object-fit:contain}
+.logo-row{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+@media(max-width:1000px){.logo-row{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:520px){.logo-row{grid-template-columns:repeat(2,1fr);gap:12px}}
+.client{display:grid;gap:10px;margin:0;min-width:0}
+.client .tile{width:100%;height:92px;border-radius:16px;background:#F4F7FF;display:grid;place-items:center;padding:12px 16px;border:1px solid transparent;transition:transform .2s}
+.client .tile.dark{background:#1b2445;border-color:var(--line2)}
+.client:hover .tile{transform:translateY(-3px)}
+.client .tile img{max-height:58px;max-width:100%;width:auto;object-fit:contain}
+.client .tile.dark .wm{color:#F4F7FF}
 .client .wm{font:800 20px/1.1 Sora,sans-serif;color:#0B1020;letter-spacing:-.01em;text-align:center}
 .client .wm small{display:block;font:600 10px/1.4 Inter,sans-serif;letter-spacing:.2em;color:#4a5578;margin-top:4px}
-.client figcaption{font-size:12.5px;color:var(--muted);text-align:center}
+.client figcaption{font-size:12px;color:var(--dim);text-align:center;display:grid;gap:2px;line-height:1.4}
+.client figcaption b{color:var(--fg);font-size:13px;font-weight:600}
 /* cards */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
@@ -308,7 +314,7 @@ footer a:hover{color:var(--accent)}
   <section class="logos" aria-label="Clients">
     <div class="wrap">
       <p class="label">Brands I've worked with</p>
-      <div class="logo-row"><figure class="client"><div class="tile"><img src="https://i0.wp.com/koryoribd.com/wp-content/uploads/2024/03/KoryoriLogo_HalfCircle2.png?w=360" alt="Koryori logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback="Koryori"></div><figcaption>Koryori · Restaurant, Bangladesh</figcaption></figure><figure class="client"><div class="tile"><img src="https://i0.wp.com/meiernsonsroofing.com/wp-content/uploads/2024/11/Untitled-250-x-150-px-230-x-120-px-230-x-180-px-1.png?w=240" alt="Meier &amp; Sons Roofing logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback="Meier &amp; Sons Roofing"></div><figcaption>Meier &amp; Sons Roofing · California, USA</figcaption></figure><figure class="client"><div class="tile"><span class="wm">GRUPPO<small>MEDIARE</small></span></div><figcaption>Gruppo Mediare · Italy</figcaption></figure></div>
+      <div class="logo-row"><figure class="client"><div class="tile light"><img src="https://i0.wp.com/koryoribd.com/wp-content/uploads/2024/03/KoryoriLogo_HalfCircle2.png?w=360" alt="Koryori logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback="Koryori"></div><figcaption><b>Koryori</b>Restaurant · Bangladesh</figcaption></figure><figure class="client"><div class="tile light"><img src="https://i0.wp.com/meiernsonsroofing.com/wp-content/uploads/2024/11/Untitled-250-x-150-px-230-x-120-px-230-x-180-px-1.png?w=240" alt="Meier &amp; Sons Roofing logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback="Meier &amp; Sons Roofing"></div><figcaption><b>Meier &amp; Sons Roofing</b>Roofing · California, USA</figcaption></figure><figure class="client"><div class="tile light"><img src="https://www.smilekit.us/cdn/shop/files/oie_f0Hr4R35Ypfz.png?width=400" alt="Smile Kit logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback="Smile Kit"></div><figcaption><b>Smile Kit</b>E-commerce · USA</figcaption></figure><figure class="client"><div class="tile dark"><img src="https://i0.wp.com/wingswellnessspa.com/wp-content/uploads/2026/05/Vector-3.png?w=240" alt="Wings Wellness Spa logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback="Wings Wellness Spa"></div><figcaption><b>Wings Wellness Spa</b>Spa · Florida, USA</figcaption></figure><figure class="client"><div class="tile light"><img src="https://i0.wp.com/amouroutfits.com/wp-content/uploads/2023/12/amour_logo_150x150-e1769027635217.png?w=240" alt="Amour Outfits logo" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-fallback="Amour Outfits"></div><figcaption><b>Amour Outfits</b>Fashion e-commerce</figcaption></figure><figure class="client"><div class="tile light"><span class="wm">GRUPPO<small>MEDIARE</small></span></div><figcaption><b>Gruppo Mediare</b>Media · Italy</figcaption></figure></div>
     </div>
   </section>
 
