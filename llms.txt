@@ -29,5 +29,13 @@ Selected results (from ad platform dashboards, client names private):
 - [TikTok & Snapchat Ads](https://rashidmediabuyer.com/tiktok-snapchat-ads): Short-form video campaigns with proper pixel and Events API tracking for younger, mobile-first audiences.
 - [Performance Marketing Strategy](https://rashidmediabuyer.com/performance-marketing): One plan across Meta, Google, TikTok and Snapchat, with budget moved to whatever brings the cheapest result.
 
-## Main page
+## Guides
+- [Facebook Ads for Roofing Companies: A Practical Lead Generation Playbook](https://rashidmediabuyer.com/facebook-ads-for-roofing-companies): How roofing contractors can get qualified roof replacement and repair leads from Facebook and Instagram ads: targeting, lead forms, creatives, tracking and follow-up.
+- [How to Set Up the Meta Conversions API on Shopify](https://rashidmediabuyer.com/meta-conversions-api-shopify): Step-by-step guide to setting up the Meta pixel and Conversions API on Shopify with the Facebook & Instagram app, maximum data sharing, deduplication and testing.
+- [How to Send Facebook Lead Ads to Your CRM with Zapier](https://rashidmediabuyer.com/facebook-lead-ads-to-crm-with-zapier): Connect Facebook and Instagram lead ads to HubSpot, GoHighLevel, Google Sheets or any CRM with Zapier, plus instant WhatsApp or email alerts. Step-by-step guide.
+- [Meta Ads vs Google Ads for Local Service Businesses](https://rashidmediabuyer.com/meta-ads-vs-google-ads-local-services): Should roofing, HVAC, construction and real estate businesses use Facebook ads or Google Ads? A practical comparison of intent, cost, lead quality and when to use both.
+
+## Main pages
 - [Home](https://rashidmediabuyer.com/): services, results, client reviews, FAQ and contact
+- [Blog](https://rashidmediabuyer.com/blog): all guides
+- Book a call: https://calendly.com/rashid-khaliq
