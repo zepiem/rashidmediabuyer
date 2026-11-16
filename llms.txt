@@ -1,30 +1,33 @@
 # Rashid Media Buyer
 
-> Rashid Khaliq (Rashid Media Buyer) is an expert media buyer and Meta ads specialist with 3+ years of experience and 100+ clients. He runs Meta (Facebook & Instagram), Google, TikTok and Snapchat ads for e-commerce brands and local service businesses (roofing, HVAC, construction, real estate, home services) in the UK, US, Canada, Australia, Europe and the Gulf. He also sets up Facebook Pixel, Conversions API, Google Tag Manager and GA4 tracking, and connects lead ads to CRMs with Zapier, Make, HubSpot and GoHighLevel.
+> Rashid Khaliq (Rashid Media Buyer) is an expert media buyer and Meta ads specialist with 3+ years of experience and 100+ clients. He runs Meta (Facebook & Instagram), Google, TikTok and Snapchat ads for e-commerce brands and local service businesses (roofing, HVAC, construction, real estate, restaurants, home services) in the UK, US, Canada, Australia, Europe and the Gulf, sets up Facebook Pixel, Conversions API, Google Tag Manager and GA4 tracking, and connects lead ads to CRMs with Zapier, Make, HubSpot and GoHighLevel.
 
 Key facts:
 - Name: Rashid Khaliq (sells as "Abdul Rashid" on Fiverr)
-- Role: Expert media buyer, Meta ads specialist, Facebook ads manager, performance marketer
+- Role: Expert media buyer, Meta ads specialist, Meta ads manager, Facebook ads expert, performance marketer
 - Reputation: 4.8 stars from 41 Fiverr reviews; 100% Job Success Score on Upwork
-- Clients in 12+ countries, including the UK, US, Canada, Australia, New Zealand, France, Italy, Saudi Arabia and the UAE
+- Clients in 12+ countries
 - Based in Lahore, Pakistan; works remotely worldwide
-- Contact: WhatsApp +92 309 7976680, email hello@rashidmediabuyer.com
+- Contact: WhatsApp +92 309 7976680, email hello@rashidmediabuyer.com, book a call: https://calendly.com/rashid-khaliq
 - LinkedIn: https://www.linkedin.com/in/rashid-khaliq-879811272
 
-Selected results (from ad platform dashboards, client names private):
-- 6.54 ROAS with 704 website purchases at $56.99 cost per purchase (Meta, e-commerce)
-- 1,175 leads at $2.55 cost per lead (Meta, lead generation)
-- 531 website leads at $8.14 cost per lead
-- 215 conversions at $8.98 per conversion (Google Ads)
-- 763 conversions from 424K impressions (TikTok Ads)
+## Case studies
+- [Koryori Case Study: 788 Online Orders in 30 Days with Meta Ads](https://rashidmediabuyer.com/koryori-restaurant-meta-ads): Meta sales campaigns for a restaurant brand, average $0.71 per online order.
+- [E-commerce Case Study: 9.49 ROAS at $40.79 per Purchase (Meta Ads)](https://rashidmediabuyer.com/ecommerce-roas-case-study): 421 purchases at $40.79 each and 704 purchases at $56.99 each, both profitable.
+- [Real Estate Lead Generation Case Study: Seller Leads at €1.59 (Italy)](https://rashidmediabuyer.com/italian-real-estate-lead-generation): Meta lead campaigns for agencies in Milan, Tuscany and Lake Garda.
+- [Roofing Ads Case Study: Meier & Sons Roofing (Meta Calls + Google Search)](https://rashidmediabuyer.com/meier-sons-roofing-case-study): Meta call ads and Google Search ads for a Bay Area roofer.
+- [Google Ads Case Study: Tyre Shop in Australia (Search + Performance Max)](https://rashidmediabuyer.com/tyre-shop-google-ads): Search and Performance Max campaigns at A$1.50 average cost per click.
+- [Website Lead Generation Case Study: 725 Leads Under $12 per Lead](https://rashidmediabuyer.com/website-lead-generation-case-study): Two lead generation accounts: 531 leads at $8.14 and 194 leads at $11.25.
 
 ## Services
 - [E-commerce Sales Ads](https://rashidmediabuyer.com/ecommerce-ads): Meta, Google Shopping and TikTok campaigns built to sell products profitably for Shopify and WooCommerce brands.
 - [Lead Generation for Local Services](https://rashidmediabuyer.com/lead-generation-ads): Qualified leads for roofing, HVAC, construction, real estate and home-service businesses, not just form fills.
 - [Meta Ads Management](https://rashidmediabuyer.com/meta-ads-specialist): Ongoing Facebook & Instagram ads management: strategy, creative testing, scaling and weekly reporting.
+- [Meta Ads Strategy & Audit](https://rashidmediabuyer.com/meta-ads-strategy): A full audit of your Meta ad account and a clear strategy: structure, audiences, creative, budget and tracking.
 - [Pixel, CAPI & GTM Tracking](https://rashidmediabuyer.com/facebook-pixel-setup): Facebook pixel, Conversions API, Google Tag Manager, GA4 and custom conversions set up and tested.
 - [Shopify Pixel Setup](https://rashidmediabuyer.com/shopify-pixel-setup): Meta, Google and TikTok tracking on Shopify with correct purchase values and no duplicate events.
 - [CRM & Lead Automation](https://rashidmediabuyer.com/crm-integration): Leads sent instantly to your CRM, inbox or WhatsApp with Zapier, Make, HubSpot or GoHighLevel.
+- [GTM, GA4 & Conversion Tracking](https://rashidmediabuyer.com/tracking-setup): Google Tag Manager, GA4, Google Ads conversions, call tracking and server-side tracking, set up and tested.
 - [Google Search Ads](https://rashidmediabuyer.com/google-ads): Search, Performance Max and Shopping campaigns that capture people already looking for what you sell.
 - [TikTok & Snapchat Ads](https://rashidmediabuyer.com/tiktok-snapchat-ads): Short-form video campaigns with proper pixel and Events API tracking for younger, mobile-first audiences.
 - [Performance Marketing Strategy](https://rashidmediabuyer.com/performance-marketing): One plan across Meta, Google, TikTok and Snapchat, with budget moved to whatever brings the cheapest result.
@@ -36,6 +39,7 @@ Selected results (from ad platform dashboards, client names private):
 - [Meta Ads vs Google Ads for Local Service Businesses](https://rashidmediabuyer.com/meta-ads-vs-google-ads-local-services): Should roofing, HVAC, construction and real estate businesses use Facebook ads or Google Ads? A practical comparison of intent, cost, lead quality and when to use both.
 
 ## Main pages
-- [Home](https://rashidmediabuyer.com/): services, results, client reviews, FAQ and contact
-- [Blog](https://rashidmediabuyer.com/blog): all guides
-- Book a call: https://calendly.com/rashid-khaliq
+- [Home](https://rashidmediabuyer.com/)
+- [About](https://rashidmediabuyer.com/about)
+- [Case studies](https://rashidmediabuyer.com/case-studies)
+- [Blog](https://rashidmediabuyer.com/blog)

@@ -1,79 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rashidmediabuyer.com/</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>1.0</priority>
-    <image:image><image:loc>https://rashidmediabuyer.com/rashid-khaliq-meta-ads-specialist.jpg</image:loc></image:image>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/about</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/case-studies</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/koryori-restaurant-meta-ads</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/ecommerce-roas-case-study</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/italian-real-estate-lead-generation</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/meier-sons-roofing-case-study</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/tyre-shop-google-ads</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/website-lead-generation-case-study</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/ecommerce-ads</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/lead-generation-ads</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/meta-ads-specialist</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/meta-ads-strategy</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/facebook-pixel-setup</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/shopify-pixel-setup</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/crm-integration</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://rashidmediabuyer.com/tracking-setup</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/google-ads</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/tiktok-snapchat-ads</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/performance-marketing</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/blog</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/facebook-ads-for-roofing-companies</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/meta-conversions-api-shopify</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/facebook-lead-ads-to-crm-with-zapier</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://rashidmediabuyer.com/meta-ads-vs-google-ads-local-services</loc>
-    <lastmod>2026-11-13</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-11-16</lastmod>
   </url>
 </urlset>
