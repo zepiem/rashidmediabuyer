@@ -288,6 +288,30 @@ footer a:hover{color:var(--accent)}
 .drawer details a{display:block;padding:11px 4px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
 .drawer .dl{display:block;padding:16px;border-radius:14px;background:var(--surface);border:1px solid var(--line);margin-bottom:10px;font:600 16px/1.2 Sora,sans-serif}
 .drawer .btn{width:100%;margin-top:8px}
+/* hero v4 desktop */
+.nav .wrap{justify-content:flex-start}
+.nav nav{margin-left:auto}
+.nav-cta{margin-left:16px}
+@media(max-width:1020px){.nav .wrap{gap:10px}.nav-cta{margin-left:auto}}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.rgrid .rrow{grid-template-columns:1fr;gap:10px;align-content:start;padding:16px}
+.rgrid .rrow .go{font-size:12.5px;color:var(--accent)}
+.rb-all{justify-self:start;color:var(--muted);font-size:13.5px;font-weight:600}
+.rb-all:hover{color:var(--accent)}
+.ind-row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin-top:26px}
+.ind-k{font:500 12px/1 "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-right:6px}
+.ind-row .chip{padding:8px 12px;font-size:12.5px}
+@media(min-width:961px){
+ .hero{padding-block:clamp(36px,5vh,64px) clamp(40px,6vh,72px)}
+ .hero .wrap{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:56px}
+ .hero-copy{gap:18px}
+ .hero h1{font-size:clamp(34px,3.3vw,50px);line-height:1.08}
+ .hero .lead{font-size:clamp(15.5px,1.15vw,17.5px)}
+ .resultbox{padding:20px}
+ .rgrid .rrow b{font-size:21px}
+}
+@media(max-width:960px){.rgrid .rrow{padding:14px}.rgrid .rrow b{font-size:18px}.rgrid .rrow .pf{width:32px;height:32px}}
+@media(max-width:360px){.rgrid{grid-template-columns:1fr}}
 /* hero v3 */
 .hero .wrap{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}
 .hero h1{font-size:clamp(34px,4.4vw,56px);max-width:18ch}
@@ -410,6 +434,7 @@ footer a:hover{color:var(--accent)}
 <body>
 <header class="nav">
   <div class="wrap">
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <a class="logo" href="/" aria-label="Rashid Media Buyer home"><b>R</b><i style="font-style:normal">Rashid<span>.</span>MediaBuyer</i></a>
     <nav aria-label="Main"><ul class="menu">
       <li><button type="button" data-mega aria-expanded="false" aria-controls="mega">Services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></li>
@@ -420,7 +445,6 @@ footer a:hover{color:var(--accent)}
     </ul></nav>
     <div class="nav-cta">
       <a class="btn btn-primary keep" href="https://calendly.com/rashid-khaliq" target="_blank" rel="noopener">Book a call</a>
-      <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
   </div>
   <div class="mega" id="mega" hidden><div class="wrap"><div><h3>Meta Ads</h3><ul><li><a class="ml" href="/meta-ads-specialist"><b>Meta Ads Specialist &amp; Manager</b><small>Ongoing Facebook &amp; Instagram ads management: strategy, creative testin…</small></a></li><li><a class="ml" href="/meta-ads-strategy"><b>Meta Ads Strategy &amp; Audit</b><small>A full audit of your Meta ad account and a clear strategy: structure, …</small></a></li><li><a class="ml" href="/ecommerce-ads"><b>E-commerce Sales Ads</b><small>Meta, Google Shopping and TikTok campaigns built to sell products prof…</small></a></li><li><a class="ml" href="/lead-generation-ads"><b>Lead Generation Ads</b><small>Qualified leads for roofing, HVAC, construction, real estate and home-…</small></a></li></ul></div><div><h3>Google Ads</h3><ul><li><a class="ml" href="/google-ads"><b>Google Search &amp; Performance Max</b><small>Search, Performance Max and Shopping campaigns that capture people alr…</small></a></li><li><a class="ml" href="/performance-marketing"><b>Performance Marketing Strategy</b><small>One plan across Meta, Google, TikTok and Snapchat, with budget moved t…</small></a></li></ul></div><div><h3>Video &amp; Automation</h3><ul><li><a class="ml" href="/tiktok-snapchat-ads"><b>TikTok &amp; Snapchat Ads</b><small>Short-form video campaigns with proper pixel and Events API tracking f…</small></a></li><li><a class="ml" href="/crm-integration"><b>CRM &amp; Lead Automation</b><small>Leads sent instantly to your CRM, inbox or WhatsApp with Zapier, Make,…</small></a></li></ul></div><div><h3>Tracking Setup</h3><ul><li><a class="ml" href="/facebook-pixel-setup"><b>Facebook Pixel &amp; Conversions API</b><small>Facebook pixel, Conversions API, Google Tag Manager, GA4 and custom co…</small></a></li><li><a class="ml" href="/tracking-setup"><b>Google Ads Conversion Tracking, GTM &amp; GA4</b><small>Google Ads conversions, Google Tag Manager, GA4, call and form trackin…</small></a></li><li><a class="ml" href="/shopify-pixel-setup"><b>Shopify Pixel Setup</b><small>Meta, Google and TikTok tracking on Shopify with correct purchase valu…</small></a></li></ul></div><div class="feat"><span class="eyebrow">Featured case study</span><b>9.49 ROAS</b><p>421 purchases at $40.79 each and 704 purchases at $56.99 each, both profitable.</p><a class="btn" href="/ecommerce-roas-case-study">Read case study →</a></div></div></div>
