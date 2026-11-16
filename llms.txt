@@ -24,6 +24,7 @@ Key facts:
 - [Lead Generation for Local Services](https://rashidmediabuyer.com/lead-generation-ads): Qualified leads for roofing, HVAC, construction, real estate and home-service businesses, not just form fills.
 - [Meta Ads Management](https://rashidmediabuyer.com/meta-ads-specialist): Ongoing Facebook & Instagram ads management: strategy, creative testing, scaling and weekly reporting.
 - [Meta Ads Strategy & Audit](https://rashidmediabuyer.com/meta-ads-strategy): A full audit of your Meta ad account and a clear strategy: structure, audiences, creative, budget and tracking.
+- [Facebook Ads Troubleshooting](https://rashidmediabuyer.com/facebook-ads-troubleshooting): Fix rejected ads, restricted ad accounts, ads not delivering, rising costs and broken pixel or Conversions API tracking.
 - [Pixel, CAPI & GTM Tracking](https://rashidmediabuyer.com/facebook-pixel-setup): Facebook pixel, Conversions API, Google Tag Manager, GA4 and custom conversions set up and tested.
 - [Shopify Pixel Setup](https://rashidmediabuyer.com/shopify-pixel-setup): Meta, Google and TikTok tracking on Shopify with correct purchase values and no duplicate events.
 - [CRM & Lead Automation](https://rashidmediabuyer.com/crm-integration): Leads sent instantly to your CRM, inbox or WhatsApp with Zapier, Make, HubSpot or GoHighLevel.
@@ -33,6 +34,8 @@ Key facts:
 - [Performance Marketing Strategy](https://rashidmediabuyer.com/performance-marketing): One plan across Meta, Google, TikTok and Snapchat, with budget moved to whatever brings the cheapest result.
 
 ## Guides
+- [Meta Pixel Not Working? 9 Common Problems and How to Fix Them](https://rashidmediabuyer.com/meta-pixel-not-working): Meta (Facebook) pixel not firing, purchases missing or doubled, low Event Match Quality? Nine common pixel and Conversions API problems and how to fix each one.
+- [How to Hire an Expert Media Buyer: 12 Questions to Ask Before You Do](https://rashidmediabuyer.com/how-to-hire-a-media-buyer): What a media buyer does, how a media buyer differs from a performance marketer or Meta ads specialist, and 12 questions to ask before hiring a media buyer for Meta or Google ads.
 - [Facebook Ads for Roofing Companies: A Practical Lead Generation Playbook](https://rashidmediabuyer.com/facebook-ads-for-roofing-companies): How roofing contractors can get qualified roof replacement and repair leads from Facebook and Instagram ads: targeting, lead forms, creatives, tracking and follow-up.
 - [How to Set Up the Meta Conversions API on Shopify](https://rashidmediabuyer.com/meta-conversions-api-shopify): Step-by-step guide to setting up the Meta pixel and Conversions API on Shopify with the Facebook & Instagram app, maximum data sharing, deduplication and testing.
 - [How to Send Facebook Lead Ads to Your CRM with Zapier](https://rashidmediabuyer.com/facebook-lead-ads-to-crm-with-zapier): Connect Facebook and Instagram lead ads to HubSpot, GoHighLevel, Google Sheets or any CRM with Zapier, plus instant WhatsApp or email alerts. Step-by-step guide.
